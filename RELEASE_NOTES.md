@@ -1,5 +1,40 @@
 # WebGoat release notes
 
+## UNI Patch 2026.1:
+
+### New Features
+- Expanded on JWT structure
+- Added additional tools section to JWT decoding assignment showcasing commonly used JWT tools
+- Cleaned up JWT solution lesson Fixed a couple grammatical errors Added section on alternatives Expanded on conclusion to say that not all JWTs are bad
+- Added JWT tool hint to JWT cracking lesson
+- Added section about generating JWKS files to JKU lesson
+- Updated JWT token for JWKS lesson to include a valid JWKS url locally hosted by WebGoat
+- Added example JWKS to JKU lesson
+- Added self promo message to UNI fork
+- Added unit tests for new HttpBasics lessons
+- Cleaned up TLS lesson and included sentences on HTTPS being the modern standard
+- Created quiz over new HTTP basics content and renamed lesson4 to HTML Forms Lesson 4 was prevously called "The Quiz", but because HTTP basics now has an actual quiz it has been renamed.
+- Added HTTPS section to http basics
+- Added section on HTTP responses
+- Added tests for localhost password reset host fix
+- Fixed password reset lesson's host header not forwarding with localhost
+- Updated and expanded on HTTP basics intro lesson
+- Added external HTTP requests lesson
+- Added additional section for Burp Suite
+
+### Bug Fixes
+- Fixed input validation issue preventing users from creating more users
+- Fixed line endings for pre-commit check
+- Fixed line endings
+- Fixed typo in JWT structure
+- Cleaned up JWT Signing lesson Fixed gramatical errors Fixed some confusing text Added hint about reading JWT teh
+- Fixed wrong HTTP body in jwt-refresh.js Lots of students in class with me were very confused why their attacks weren't working. This was because request in jwt-refresh.js had the refresh token stored as refreshToken and the server expcted refresh_token. Changing the body in the javascript file should fix any confusion.
+- Fixed hints not showing up in JWT JKU and KID lessons
+- Corrected issue in HTTPS benefits question
+- Fixed spelling error in new external http requests hint
+- Fixed capitalization issue in log bleeding lesson
+- Fixed issue causing advanced SQL injection lesson not to show as complete
+
 ## Version 2025.3
 
 ### 🐞 Bug fixes
