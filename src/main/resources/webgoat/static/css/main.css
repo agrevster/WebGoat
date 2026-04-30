@@ -753,6 +753,10 @@ fieldset[disabled] .btn-warning.active {
     opacity: 95%;
 }
 
+#uni-patch-modal {
+    opacity: 95%;
+}
+
 .modal-header {
     border-bottom: none !important
 }

@@ -14,6 +14,7 @@ function($,
 		},
 
 		initialize: function() {
+            this.showUNIPatchModel()
 
 		},
 
@@ -37,6 +38,14 @@ function($,
 			$('#about-modal').show(400);
 			$('#about-modal div.modal-header button.close, #about-modal div.modal-footer button').unbind('click').on('click', function() {
 				$('#about-modal').hide(200);
+			});
+		},
+
+
+		showUNIPatchModel: function() {
+			$('#uni-patch-modal').show(400);
+			$('#uni-patch-modal div.modal-header button.close, #about-modal div.modal-footer button').unbind('click').on('click', function() {
+				$('#uni-patch-modal').hide(200);
 			});
 		}
 
