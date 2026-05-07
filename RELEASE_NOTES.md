@@ -1,5 +1,18 @@
 # WebGoat release notes
 
+
+## UNI Patch 2026.2:
+
+### Bug Fixes
+- Cleaned up grammar and wording for insecure deserialization lessons
+- Fixed lesson 2 of WebWolf intro not showing as complete
+- Fixed lesson not showing as complete in vulnerable components
+- Fixed lesson not showing as complete in bypass restrictions
+- Fixed issue with client side filtering get it for free lesson not turning green after completion
+- Fixed issue where password reset lessons don't turn green after completion
+- Fixed issue with path traversal lessons 5 and 7 not turning green on completion
+- Fixed hints not appearing up for XXE lessons
+
 ## UNI Patch 2026.1:
 
 ### New Features
