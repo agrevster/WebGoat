@@ -1,9 +1,9 @@
 # WebGoat release notes
 
-
 ## UNI Patch 2026.2:
 
 ### Bug Fixes
+
 - Cleaned up grammar and wording for insecure deserialization lessons
 - Fixed lesson 2 of WebWolf intro not showing as complete
 - Fixed lesson not showing as complete in vulnerable components
@@ -16,6 +16,7 @@
 ## UNI Patch 2026.1:
 
 ### New Features
+
 - Expanded on JWT structure
 - Added additional tools section to JWT decoding assignment showcasing commonly used JWT tools
 - Cleaned up JWT solution lesson Fixed a couple grammatical errors Added section on alternatives Expanded on conclusion to say that not all JWTs are bad
@@ -36,6 +37,7 @@
 - Added additional section for Burp Suite
 
 ### Bug Fixes
+
 - Fixed input validation issue preventing users from creating more users
 - Fixed line endings for pre-commit check
 - Fixed line endings
